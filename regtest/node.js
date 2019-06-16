@@ -53,7 +53,7 @@ describe('Node Functionality', function() {
             config: {
               spawn: {
                 datadir: datadir,
-                exec: path.resolve(__dirname, '../bin/vpubd')
+                exec: path.resolve(__dirname, '../bin/vircled')
               }
             }
           }

@@ -1,10 +1,10 @@
 # Vircle Service
 
-The Vircle Service is a Node.js interface to [Vircle Core](https://github.com/vpubchain/vircle-core) for querying information about the vircle block chain. It will manage starting and stopping `vpubd` or connect to several running `vpubd` processes. It uses an instance of a Vircle with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
+The Vircle Service is a Node.js interface to [Vircle Core](https://github.com/vpubchain/vircle-core) for querying information about the vircle block chain. It will manage starting and stopping `vircled` or connect to several running `vircled` processes. It uses an instance of a Vircle with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
 
 ## Configuration
 
-The default configuration will include a "spawn" configuration in "vpubd". This defines the location of the block chain database and the location of the `vpubd` daemon executable. The below configuration points to a local clone of `vircle`, and will start `vpubd` automatically with your Node.js application.
+The default configuration will include a "spawn" configuration in "vircled". This defines the location of the block chain database and the location of the `vircled` daemon executable. The below configuration points to a local clone of `vircle`, and will start `vircled` automatically with your Node.js application.
 
 ```json
   "servicesConfig": {
@@ -17,7 +17,7 @@ The default configuration will include a "spawn" configuration in "vpubd". This 
   }
 ```
 
-It's also possible to connect to separately managed `vpubd` processes with round-robin quering, for example:
+It's also possible to connect to separately managed `vircled` processes with round-robin quering, for example:
 
 ```json
   "servicesConfig": {
