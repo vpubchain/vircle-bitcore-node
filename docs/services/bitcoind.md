@@ -1,10 +1,10 @@
 # Vpub Service
 
-The Vpub Service is a Node.js interface to [Vpub Core](https://github.com/vpubchain/vpub-core) for querying information about the vpub block chain. It will manage starting and stopping `vpubd` or connect to several running `vpubd` processes. It uses an instance of a Vpub with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
+The Vpub Service is a Node.js interface to [Vpub Core](https://github.com/vpubchain/vircle-core) for querying information about the vircle block chain. It will manage starting and stopping `vpubd` or connect to several running `vpubd` processes. It uses an instance of a Vpub with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
 
 ## Configuration
 
-The default configuration will include a "spawn" configuration in "vpubd". This defines the location of the block chain database and the location of the `vpubd` daemon executable. The below configuration points to a local clone of `vpub`, and will start `vpubd` automatically with your Node.js application.
+The default configuration will include a "spawn" configuration in "vpubd". This defines the location of the block chain database and the location of the `vpubd` daemon executable. The below configuration points to a local clone of `vircle`, and will start `vpubd` automatically with your Node.js application.
 
 ```json
   "servicesConfig": {

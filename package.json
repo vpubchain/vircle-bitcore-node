@@ -1,13 +1,13 @@
 {
-  "name": "vpub-bitcore-node",
+  "name": "vircle-bitcore-node",
   "description": "Full node with extended capabilities using Bitcore and Bitcoin Core",
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.4",
   "main": "./index.js",
-  "repository": "git://github.com/vpubchain/vpub-bitcore-node.git",
-  "homepage": "https://github.com/vpubchain/vpub-bitcore-node",
+  "repository": "git://github.com/vpubchain/vircle-bitcore-node.git",
+  "homepage": "https://github.com/vpubchain/vircle-bitcore-node",
   "bugs": {
-    "url": "https://github.com/vpubchain/vpub-bitcore-node/issues"
+    "url": "https://github.com/vpubchain/vircle-bitcore-node/issues"
   },
   "contributors": [
     {
@@ -54,10 +54,10 @@
     "liftoff": "^2.3.0",
     "lru-cache": "^4.0.1",
     "mkdirp": "0.5.0",
-    "vpub-bitcoind-rpc": "git://github.com/vpubchain/vpub-bitcoind-rpc",
-    "vpub-bitcore-lib": "git://github.com/vpubchain/vpub-bitcore-lib",
-    "vpub-insight-api": "git://github.com/vpubchain/vpub-insight-api",
-    "vpub-insight-ui": "git://github.com/vpubchain/vpub-insight-ui",
+    "vircle-bitcoind-rpc": "git://github.com/vpubchain/vircle-bitcoind-rpc",
+    "vircle-bitcore-lib": "git://github.com/vpubchain/vircle-bitcore-lib",
+    "vircle-insight-api": "git://github.com/vpubchain/vircle-insight-api",
+    "vircle-insight-ui": "git://github.com/vpubchain/vircle-insight-ui",
     "path-is-absolute": "^1.0.0",
     "semver": "^5.0.1",
     "socket.io": "^1.4.5",

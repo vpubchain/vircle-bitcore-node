@@ -94,8 +94,8 @@ describe('#add', function() {
       var callCount = 0;
       var oldPackage = {
         dependencies: {
-          'vpub-bitcore-lib': 'file:../vpub-bitcore-lib',
-          'vpub-bitcore-node': 'file:../vpub-bitcore-node'
+          'vircle-bitcore-lib': 'file:../vircle-bitcore-lib',
+          'vircle-bitcore-node': 'file:../vircle-bitcore-node'
         }
       };
       var spawn = sinon.stub().returns({

@@ -58,8 +58,8 @@ describe('#defaultConfig', function() {
       services: [
         'bitcoind',
         'web',
-        'vpub-insight-api',
-        'vpub-insight-ui'
+        'vircle-insight-api',
+        'vircle-insight-ui'
       ],
       servicesConfig: {
         bitcoind: {
@@ -87,7 +87,7 @@ describe('#defaultConfig', function() {
     });
     var home = process.env.HOME;
     var info = defaultConfig({
-      additionalServices: ['vpub-insight-api', 'vpub-insight-ui']
+      additionalServices: ['vircle-insight-api', 'vircle-insight-ui']
     });
     info.path.should.equal(home + '/.bitcore');
     info.config.network.should.equal('livenet');
@@ -95,8 +95,8 @@ describe('#defaultConfig', function() {
     info.config.services.should.deep.equal([
       'bitcoind',
       'web',
-      'vpub-insight-api',
-      'vpub-insight-ui'
+      'vircle-insight-api',
+      'vircle-insight-ui'
     ]);
     var bitcoind = info.config.servicesConfig.bitcoind;
     should.exist(bitcoind);
